@@ -116,9 +116,22 @@ jobs:
     needs: npm
     runs-on: ubuntu-latest
     steps:
+      - name: Wait 5 minutes to allow PDFs to generate
+        run: sleep 5m
       - name: Trigger simple-icons-website update
         run: |
           curl -X POST \
             -H "Authorization: Bearer ${{ secrets.REMOTE_DISPATCH_TOKEN }}" \
             -d '{"ref":"master"}' \
             https://api.github.com/repos/simple-icons/simple-icons-website/actions/workflows/auto-release.yml/dispatches
+  pdf:
+    name: Trigger simple-icons-pdf update
+    needs: npm
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger simple-icons-pdf update
+        run: |
+          curl -X POST \
+            -H "Authorization: Bearer ${{ secrets.REMOTE_DISPATCH_TOKEN }}" \
+            -d '{"ref":"master"}' \
+            https://api.github.com/repos/simple-icons/simple-icons-pdf/actions/workflows/auto-release.yml/dispatches
