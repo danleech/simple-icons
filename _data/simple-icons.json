@@ -6850,6 +6850,11 @@
             "source": "https://player.me/p/about-us"
         },
         {
+            "title": "PlayerUnknown's Battlegrounds",
+            "hex": "F2A900",
+            "source": "https://www.pubg.com/"
+        },
+        {
             "title": "PlayStation",
             "hex": "003791",
             "source": "https://www.playstation.com/en-us/"
