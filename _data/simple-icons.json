@@ -2440,6 +2440,11 @@
             }
         },
         {
+            "title": "Dovecot",
+            "hex": "4a9cd8",
+            "source": "https://upload.wikimedia.org/wikipedia/commons/8/89/Dovecot_logo.svg"
+       },
+       {
             "title": "Douban Read",
             "hex": "389EAC",
             "source": "https://read.douban.com",
