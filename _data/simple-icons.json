@@ -6566,6 +6566,12 @@
             "source": "https://github.com/palantir/conjure/blob/master/docs/media/palantir-logo.svg"
         },
         {
+            "title": "Palo Alto Networks",
+            "hex": "FA582D",
+            "source": "https://www.paloaltonetworks.com/company/brand",
+            "guidelines": "https://www.paloaltonetworks.com/company/brand"
+        },
+        {
             "title": "Palo Alto Software",
             "hex": "83DA77",
             "source": "https://www.paloalto.com"
