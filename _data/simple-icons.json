@@ -4980,6 +4980,11 @@
             "source": "https://nova.laravel.com/"
         },
         {
+            "title": "Laravel Sail",
+            "hex": "38BDF7",
+            "source": "https://github.com/laravel/sail/blob/1.x/art/logo.svg"
+        },
+        {
             "title": "Last.fm",
             "hex": "D51007",
             "source": "https://commons.wikimedia.org/wiki/File:Lastfm_logo.svg"
