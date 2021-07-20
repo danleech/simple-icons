@@ -2484,6 +2484,12 @@
             "source": "https://www.stellantis.com/en/brands/ds"
         },
         {
+            "title": "DTS",
+            "hex": "F2A900",
+            "source": "https://commons.wikimedia.org/wiki/File:DTS_(2020).svg",
+            "guidelines": "https://dts.com/terms-conditions/"
+        },
+        {
             "title": "DTube",
             "hex": "F01A30",
             "source": "https://about.d.tube/mediakit.html"
